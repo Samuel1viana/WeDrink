@@ -8,14 +8,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,800;1,400&display=swap" rel="stylesheet">  
     <!-- TITULO INDEX -->
-    <title>WE DRINK</title>
-
+    <title>LOGIN</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/index.css">
 </head>
 <body>
     <div class="conteiner">
-        <a href="/login.html">LOGIN</a>
+
+        <div class="login-section">
+            <header>Entre em sua conta</header>
+            <form>
+                <input type="text" placeholder="nome de usuário">
+                <input type="password" placeholder="senha">
+            </form>
+            <a href="#">Esqueceu a senha?</a>
+            <button>entrar</button>
+        </div>
+        
+        <div class="register-section">
+            <header>Cadastre-se</header>
+            <form>
+                <input type="text" placeholder="nome">
+                <input type="email" placeholder="e-mail">
+                <input type="password" placeholder="senha">
+            </form>
+            
+            <button>Cadastre-se</button>
+        </div>
     </div>
-    
+    <script src="/scripts/login.js"></script>
 </body>
 </html>
