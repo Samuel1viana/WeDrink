@@ -1,0 +1,94 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #acacac;
+    background-image: url("https://i.ytimg.com/vi/lcUl4gRml34/maxresdefault.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+
+
+.conteiner{
+    position: relative;
+    width: 450px;
+    height: 550px;
+    border: 1px solid #000;
+    box-shadow: 0px 5px 5px rgba(0,0,0, 0.6);
+    border-radius: 15px;
+    background: rgba(100, 100, 100, 0.6);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* padding: 1rem 2rem; */
+}
+
+.cadastro{
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    height: 100%;
+}
+.cadastro header{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 2rem;
+}
+.cadastro form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.cadastro form input{
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: #ccc;
+    background-color: #fff;
+}
+.cadastro button{
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 1rem;
+    background-color: #ccc;
+    color: #000;
+    border: none;
+}
+.entrar{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 85%;
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding-top: 10px;
+    transition: all ease .6s;
+    background-color: #ccc;
+    opacity: 0.6;
+    border-radius: 100px 100px 0px 0px;
+}
+.entrar header{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.clicado{
+   top: 15%;
+   border-radius: 50px 50px 0px 0px;
+   width: 100%;
+   opacity: 1;
+}
+
