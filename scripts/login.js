@@ -1,10 +1,10 @@
 const conteiner = document.querySelector(".conteiner");
-const botaoCadastro = document.querySelector(".cadastro");
-const botaoEntrar = document.querySelector(".entrar");
+const login = document.querySelector(".login-section");
+const cadastro = document.querySelector(".register-section");
 
-botaoEntrar.addEventListener("click", () => {
-    botaoEntrar.classList.add("clicado");
+cadastro.addEventListener("click", () => {
+    cadastro.classList.add("clicado");
 });
-botaoCadastro.addEventListener("click", () => {
-    botaoEntrar.classList.remove("clicado");
+login.addEventListener("click", () => {
+    cadastro.classList.remove("clicado");
 });
