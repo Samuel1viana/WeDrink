@@ -1,4 +1,3 @@
-const conteiner = document.querySelector(".conteiner");
 const login = document.querySelector(".login-section");
 const cadastro = document.querySelector(".register-section");
 
