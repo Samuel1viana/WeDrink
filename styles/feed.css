@@ -16,8 +16,11 @@
     color: #fff;
 }
 .nav-bar img{
-    padding-left: 1rem;
-    padding-right: 5rem;
+    width: 200px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .nav-bar h1{
     font-size: 14px;
@@ -75,6 +78,10 @@
     border: 1px solid #ccc;
 }
 .mid-section{
-   
     width: 100vw;
+}
+
+.logo-loop{
+    width: 200px;
+    height: 100px;
 }

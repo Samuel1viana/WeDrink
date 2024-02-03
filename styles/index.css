@@ -3,15 +3,22 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #acacac;
-    background-image: url("https://i.ytimg.com/vi/lcUl4gRml34/maxresdefault.jpg" );
+    /* background-image: url("https://i.ytimg.com/vi/lcUl4gRml34/maxresdefault.jpg" );
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+}
+video{
+    position: absolute;
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center
 }
 
-
 .conteiner{
+    scale: 0.65;
     position: relative;
     width: 450px;
     height: 550px;
