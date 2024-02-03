@@ -3,10 +3,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-image: url("https://i.ytimg.com/vi/lcUl4gRml34/maxresdefault.jpg" );
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
 }
 video{
     position: absolute;
@@ -14,7 +10,7 @@ video{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: center
+    object-position: center;
 }
 
 .conteiner{
